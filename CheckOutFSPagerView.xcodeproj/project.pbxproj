@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A24C8B7E4838EE53100119C /* Pods_CheckOutFSPagerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8976BFB28D20CF1B65A14A /* Pods_CheckOutFSPagerView.framework */; };
+		9F93476E218B54C4000690B5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93476C218B54C4000690B5 /* MainVC.swift */; };
 		BF_506396998466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_160759243113 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -15,6 +16,8 @@
 		26972D1BDA9FB170C9A92B79 /* Pods-CheckOutFSPagerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckOutFSPagerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheckOutFSPagerView/Pods-CheckOutFSPagerView.debug.xcconfig"; sourceTree = "<group>"; };
 		2A8976BFB28D20CF1B65A14A /* Pods_CheckOutFSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckOutFSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D953F8D5861DC125E17D6EE /* Pods-CheckOutFSPagerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckOutFSPagerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheckOutFSPagerView/Pods-CheckOutFSPagerView.release.xcconfig"; sourceTree = "<group>"; };
+		9F93476C218B54C4000690B5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		9F93476D218B54C4000690B5 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 		FR_160759243113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FR_456968685412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FR_827331810179 /* CheckOutFSPagerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckOutFSPagerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				FR_160759243113 /* AppDelegate.swift */,
+				9F93476D218B54C4000690B5 /* MainVC.xib */,
+				9F93476C218B54C4000690B5 /* MainVC.swift */,
 				FR_456968685412 /* Info.plist */,
 			);
 			path = src;
@@ -167,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF_506396998466 /* AppDelegate.swift in Sources */,
+				9F93476E218B54C4000690B5 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

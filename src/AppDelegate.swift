@@ -15,9 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         self.window = UIWindow(frame: UIScreen.main.bounds)
 
         // Setup VC.
-        let vc = UIViewController()
-        vc.view.backgroundColor = .red
-        self.window?.rootViewController = vc
+        self.window?.rootViewController = MainVC()
 
         // Display window.
         self.window?.backgroundColor = UIColor.white
